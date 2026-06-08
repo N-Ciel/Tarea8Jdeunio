@@ -6,15 +6,13 @@
 }
 
 body {
-    
     font-family: Arial, sans-serif;
-    background-color: #520b0b;
+    background-color: #5d0707;
     padding: 20px;
-    color: #173428;
+    color: #000000;
 }
 .contenedor-principal {
     background: linear-gradient(rgba(187, 188, 190, 0.75), rgba(5, 7, 12, 0.75)), url(../imag/43361.jpg);
-    
     width: 100%;
     margin: auto; /* Centra la página en la pantalla */
     background-color: #a7ecff;
@@ -22,7 +20,6 @@ body {
     padding: 15px;
     display: flex;
     flex-direction:column;
-    min-height: 90vh; /* Para que la página tenga buena altura */
     gap: 15px; /* Espacio entre el encabezado, el medio y el pie */
 }
 
@@ -37,15 +34,14 @@ body {
 /* Sección Media: Permite poner el Menú y el Contenido lado a lado */
 .seccion-media {
     display: flex;
-    gap: 15px; /* Espacio entre el menú y el contenido */
+    gap: 15px;
     flex: 1;
-    color: black;
-    border-radius: 10px; /* Hace que esta sección ocupe el espacio sobrante en alto */
+    color: rgb(229, 206, 206);
+    border-radius: 10px;
 }
-
 /* Menú lateral */
 .menu {
-    border: 2px solid #d93025;
+    border: 2px solid #b338b3;
     width: 30%; /* Ocupa una parte de la pantalla */
     padding: 15px;
     display: flex;
@@ -53,12 +49,10 @@ body {
     align-items: center;
     border-radius:10px;
 }
-
 .menu h2 {
     margin-bottom: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
-
 .menu nav {
     width: 100%;
 }
@@ -69,7 +63,6 @@ body {
 .menu li {
     margin-bottom: 10px;
 }
-
 /* Diseño de los botones de las páginas */
 .menu a {
     display: block;
@@ -79,6 +72,7 @@ body {
     color: rgb(28, 182, 162);
     border: 2px solid #6e7b82; /* Borde azul como en el dibujo */
     font-weight: bold;
+    border-radius: 10px;
 }
 .menu a:hover {
     background-color: #5e7fb8; /* Efecto al pasar el ratón */
@@ -103,13 +97,11 @@ th,td{
         padding: 5px;
     }
 }
-
 .contenido h2 {
     margin-bottom: 20px;
     font-size: 28px;
-    color: #555;
+    color: #12b7b4;
 }
-
 /* Pie de página */
 .pie-pagina {
     border: 4px solid #640b82;
@@ -148,12 +140,6 @@ th,td{
 .circulo-externo { width: 100px; height: 100px; background: green; border-radius: 50%; position: absolute; display: flex; align-items: center; justify-content: center; }
 .circulo-media { width: 70px; height: 70px; background: yellow; border-radius: 50%; position: absolute;  }
 .circulo-interno { width: 40px; height: 40px; background: red; border-radius: 50%;  position: absolute; }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    padding: 20px;
-    
-}
 
 form {
     background-color: white;
@@ -164,11 +150,7 @@ form {
     border: 6px solid #0056b3; 
     width: 100%;
 }
-h2 {
-    text-align: center;
-    margin-top: 0;
-    color:#60accf;
-}
+
 .campo {
     margin-bottom: 15px;
 }
@@ -209,15 +191,7 @@ button:hover {
     font-weight: bold;
     text-align: center;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    margin: 0;
-}
+
 .contenedor-formulario {
     background-color: white;
     padding: 20px 30px;
@@ -225,14 +199,13 @@ body {
     border-radius: 5px;
     width: 320px;
 }
-
 h2 {
     text-align: center;
     font-weight: normal;
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 1px;
-    color: #555;
+    color: #6fe390;
     margin-top: 0;
     margin-bottom: 25px;
 }
@@ -241,14 +214,10 @@ label {
     font-size: 16px;
     color: #60accf; 
 }
-input {
-    width: 50%;
-    padding: 5px;
-    border: 1px solid #999;
-}
+
 button {
     background-color: #aa8282;
-    border: 1px solid #333;
+    border: 1px solid #0d1944;
     padding: 5px 15px;
     cursor: pointer;
     font-family: monospace;
@@ -256,7 +225,7 @@ button {
     margin-top: 10px;
 }
 button:hover {
-    background-color: #bc7e7e;
+    background-color: #1d0404;
 }
 #resultado {
     margin-top: 15px;
